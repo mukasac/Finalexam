@@ -1,0 +1,89 @@
+/* This is style file for home page
+This style sheet contains:
+
+- the header style attributes
+- 
+-
+
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+/* Here are the header style attributes */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin:0;
+    padding: 0 100px;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid rgb(44, 63, 44);
+}
+
+.van-elements ul {
+    display: flex;
+    float: left;
+    padding:0;
+    margin: 0;
+}
+
+.van-elements ul li{
+    list-style: none;
+    margin: 0 15px;
+
+}
+header a{
+    text-decoration: none;
+}
+.menu-toggle i{
+    font-size:24px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+header nav ul li a:hover,
+header nav ul li a.active
+{
+    color: white;
+    background-color: rgb(17, 58, 105);
+}
+/**/
+.contain{
+    height: 500px;
+    width: 100%;
+    background-color: bisque;
+
+}
+.footer-info{
+    background-color: black;
+    color : white;
+    padding: 30px;
+    font-size: 1.5erm;
+    display: flex;
+    justify-content: space-between;
+}
+.map-info{
+   height: 100px; 
+   width: 200px;
+}
+.map-info iframe{
+    border-radius: 15px;
+}
+.footer-info p {
+    margin: 10px;
+}
+
+
