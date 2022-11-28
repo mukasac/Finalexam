@@ -1,7 +1,13 @@
 /* this is the css for the booking page */
-
+body{
+    background: url(https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .containers{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* background-image: url(https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
   /* margin: 1rem; */
   padding: 2rem 2rem;
   align-items: center;
@@ -15,13 +21,13 @@
     height: 500px;
     vertical-align: middle;
     /* margin-right: 50px; */
-    outline: 2px yellow dashed;
-    outline-offset:  -15px;
+    /* outline: 2px yellow dashed;
+    outline-offset:  -15px; */
 
 }
 .container1 h1{
     font-size: 20px;
-     color: cyan;
+     color: white;
 
 
 
@@ -32,13 +38,14 @@
 }
 .container1 p{
 
-    color: cyan;
+    color: white;
 }
 .container2{
     display: inline-block;
     /* border: 5px solid black; */
     /* background-color: black; */
     box-shadow:  0px 2px 38px black;
+    background-color: white;
     
     width: 30%;
     height: 500px;
