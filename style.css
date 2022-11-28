@@ -128,5 +128,11 @@ font-family: sans-serif;
     .menu{
         font-size: 16px;
     }
-
+    .menu-group{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu-item-img{
+        height: 125px;
+        width: 125px;
+    }
 }
