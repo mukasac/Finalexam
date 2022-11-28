@@ -9,7 +9,7 @@
     display: inline-block;
     border: 5px solid black;
     border-radius: 10%;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     width: 30%;
     height: 500px;
     vertical-align: middle;
@@ -20,7 +20,7 @@
 }
 .container1 h1{
     font-size: 20px;
-     color: cyan);
+     color: yellow);
 
 
 
@@ -31,7 +31,7 @@
 }
 .container1 p{
 
-    color: rgb(0, 0, 0);
+    color: cyan;
 }
 .container2{
     display: inline-block;
