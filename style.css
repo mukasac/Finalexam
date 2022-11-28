@@ -1,4 +1,4 @@
-
+/* this is the css for the booking page */
 .containers{
     border: 1px solid black;
   margin: 1rem;
@@ -14,7 +14,6 @@
     height: 500px;
     vertical-align: middle;
     margin-right: 50px;
-    
 
 
 }
@@ -42,29 +41,77 @@
     height: 500px;
     vertical-align: middle;
     margin-left: 50px;
-
-
-
 }
 .container2 div{
-
     display: flex;
     justify-content: space-between;    
     margin: 15px;
-
-
-
 }
 .container2 div p {
-
 background-color: rgb(215, 182, 182);
 width: 90px;
 border-radius: 7%;
-
-
-
 }
-.container2 select{
-height: 40px;
+
+/* this is the css for the menu */
+.menu-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.menu-header{
+text-align: center;
+font-family: sans-serif;
+}
+
+.menu{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.menu-group-heading{
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-group{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.menu-item{
+    display: flex;
+}
+
+.menu-item-img{
+    height: 80px;
+    width: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+.menu-item-text{
+    flex-grow: 1;
+}
+.menu-item-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.menu-item-name{
+    margin-right: 1.5em;
+}
+.menu-item-description{
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 992px){
+    .menu{
+        font-size: 16px;
+    }
 
 }
