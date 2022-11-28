@@ -14,18 +14,19 @@
     height: 500px;
     vertical-align: middle;
     margin-right: 50px;
-
+    outline: 2px cyan dashed;
+    outline-offset:  -15px;
 
 }
 .container1 h1{
     font-size: 20px;
-     color: yellow;
+     color: yellow);
 
 
 
 }
 .container1 h3{
-   color: cyan;
+   color: orange;
 
 }
 .container1 p{
@@ -36,22 +37,36 @@
     display: inline-block;
     border: 5px solid black;
     border-radius: 10%;
-    background-color: white;
+    background-color: black;
     width: 30%;
     height: 500px;
     vertical-align: middle;
     margin-left: 50px;
+    outline: 2px cyan dashed;
+    outline-offset:  -15px;
 }
 .container2 div{
     display: flex;
     justify-content: space-between;    
     margin: 15px;
 }
+.container2 h1{
+
+    color: orange;
+}
 .container2 div p {
-background-color: rgb(215, 182, 182);
+    color: cyan;
 width: 90px;
 border-radius: 7%;
 }
+.container2 input{
+height: 35px
+
+}
+.container2 select{
+    height: 40px;
+}
+
 
 /* this is the css for the menu */
 .menu-main{
