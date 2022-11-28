@@ -1,7 +1,5 @@
 /* this is the css for the booking page */
-@media screen {
-    
-}
+
 .containers{
     border: 1px solid black;
   /* margin: 1rem; */
@@ -139,4 +137,24 @@ font-family: sans-serif;
         height: 125px;
         width: 125px;
     }
+   
+}
+@media screen and (max-width :995px) {
+    .containers{
+        width: 100%;
+        display: grid;
+        align-items: center;    
+        justify-content: center;
+
+    }
+    .containers div{
+        width: 500px;
+
+
+    }
+    .container2 input{
+        width : 60px;
+
+    }
+    
 }
