@@ -11,50 +11,38 @@ This style sheet contains:
     margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    list-style: none;
 }
 
 
 
 /* Here are the header style attributes */
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
     position: absolute;
-    margin:0;
-    background-color: #707B7C;
     padding: 0 100px;
-    top:0;
-    left:0;
-    box-sizing: border-box;
     width: 100%;
-    height: 70px;
-    border-bottom: 3px solid rgb(44, 63, 44);
+    background-color: #95A5A6;
 }
-
-.van-elements ul {
-    display: flex;
+.logo{
     float: left;
-    padding:0;
-    margin: 0;
-}
-
-.van-elements ul li{
-    list-style: none;
-    margin: 0 15px;
-
-}
-header a{
+    font-size: 25px;
+    line-height: 75px;
     text-decoration: none;
-    color: #ECF0F1;
 }
-.menu-toggle i{
-    font-size:24px;
+header nav {
+    float:right;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li a {
+    text-decoration: none;
+    padding : 0 20px;
+    height: 80px;
     line-height: 80px;
-    cursor: pointer;
-    display: none;
-    color: white;
+    display: block;
+    border-ra
 }
 header nav ul li a:hover,
 header nav ul li a.active
@@ -62,6 +50,16 @@ header nav ul li a.active
     color: white;
     background-color: rgb(17, 58, 105);
 }
+.menu-toggle i{  
+    float:right;
+    font-size:24px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+
+
 .fix {
     height: 70px;
 }
