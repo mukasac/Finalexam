@@ -65,7 +65,7 @@ header nav ul li a.active
     padding: 30px;
     font-size: 1.5erm;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .map-info{
    height: 100px; 
@@ -79,7 +79,8 @@ header nav ul li a.active
 }
 
   /* the media sittings for*/
-@media(max-width: 991px){    
+
+@media (max-width: 900px){    
     header{
         padding:0 20px;
     }
@@ -105,10 +106,12 @@ header nav ul li a.active
     header nav ul li a{
         border-bottom: 1px solid black;
     }
-    .cont
-    {
+    .cont{
         margin-top: 80px;
         width: auto;
+    }
+    .footer-info{
+        grid-template-columns: 1fr 1fr;
     }
     
 }
@@ -128,6 +131,9 @@ header nav ul li a.active
         left:-100%;
         transition: 0.5s;
     }
+    header nav ul il a{
+        font-size: 0.5erm;
+    }
     header nav.active{
         left: 0;
     }
@@ -142,7 +148,11 @@ header nav ul li a.active
     {
         margin-top: 80px;
         width: auto;
-        
+    }
+    .footer-info{
+        grid-template-columns: 1fr;
+        column-gap: 100px;
+        row-gap: 40px;
     }
 }
 .fix {
