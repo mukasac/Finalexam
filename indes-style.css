@@ -92,7 +92,39 @@ header nav ul li a.active
     }
     
 }
-
+@media(max-width: 500px){
+    header{
+        padding:0 20px;
+    }
+    .menu-toggle i{
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: rgb(39, 93, 138);
+        top: 80px;
+        left:-100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a{
+        border-bottom: 1px solid black;
+    }
+    .cont
+    {
+        margin-top: 80px;
+        width: auto;
+        
+    }
+}
 .fix {
     height: 70px;
 }
