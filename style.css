@@ -1,5 +1,4 @@
 
-
 /* this is the css for the booking page */
 
 .containers{
@@ -114,7 +113,7 @@
 }
 .container2 button:hover,
 .container2 button:focus {
-    animation: pulse 1s;
+  animation: pulse 1s;
   box-shadow: 0 0 0 10em black transparent;
   background:#fff;
   box-shadow:0px 2px 10px 5px #97B1BF;
