@@ -42,7 +42,6 @@ header nav ul li a {
     height: 80px;
     line-height: 80px;
     display: block;
-    border-ra
 }
 header nav ul li a:hover,
 header nav ul li a.active
@@ -58,6 +57,28 @@ header nav ul li a.active
     display: none;
     color: white;
 }
+
+/* Here are the style attributes for footer */
+.footer-info{
+    background-color: black;
+    color : white;
+    padding: 30px;
+    font-size: 1.5erm;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.map-info{
+   height: 100px; 
+   width: 200px;
+}
+.map-info iframe{
+    border-radius: 15px;
+}
+.footer-info p {
+    margin: 10px;
+}
+
+  /* the media sittings for*/
 @media(max-width: 991px){    
     header{
         padding:0 20px;
@@ -134,24 +155,6 @@ header nav ul li a.active
     background-color: bisque;
 }
 
-/* Here */
-.footer-info{
-    background-color: black;
-    color : white;
-    padding: 30px;
-    font-size: 1.5erm;
-    display: flex;
-    justify-content: space-between;
-}
-.map-info{
-   height: 100px; 
-   width: 200px;
-}
-.map-info iframe{
-    border-radius: 15px;
-}
-.footer-info p {
-    margin: 10px;
-}
+
 
 
