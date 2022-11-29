@@ -86,6 +86,7 @@ margin: 50px;
     width: 200px;
 }
 .container2 input , .container2 select{
+        cursor: pointer;
         height: 40px;
         width: 30%;
         outline: none;
@@ -94,23 +95,40 @@ margin: 50px;
 
 
 }
+.container2 select:hover, .container2 input:hover{
+  animation: pulse 1s;
+  box-shadow:0px 2px 0px 0px black;
+  color:#000;
+    
+}
+
+.container2 select option{
+    font-size: 16px;
+}
+
 .container2 button{
     background-color: orange;
+    box-shadow:  1px 1px 0  black;
     width: 30%;
     height: 30px;
-
-
-
-border: none;
-outline: none;
+    border: none;
+    outline: none;
 
 
 }
-.container2 button:hover{
-    background:#fff;
-    box-shadow:0px 2px 10px 5px #97B1BF;
-    color:#000;
- }
+.container2 button:hover,
+.container2 button:focus {
+    animation: pulse 1s;
+  box-shadow: 0 0 0 10em black transparent;
+  background:#fff;
+  box-shadow:0px 2px 10px 5px #97B1BF;
+  color:#000;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
  
 
 /* this is the css for the menu */
@@ -211,8 +229,8 @@ font-family: sans-serif;
 
     }
     .container2 button{
+        width: 200px;;
 
-        width: 100%;
     }
     .container2 input , .container2 select{
         width : 90%;
