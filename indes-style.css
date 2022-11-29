@@ -77,6 +77,22 @@ header nav ul li a.active
 .footer-info p {
     margin: 10px;
 }
+.contact-info {
+    align-items: center;
+}
+.contact-info p i {
+    margin-right: 10px;
+}
+.Social-media{
+    display: flex;
+    margin: 0 auto;
+}
+.Social-media a i {
+    color: white;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
 
   /* the media sittings for*/
 
