@@ -145,9 +145,8 @@ color: var(--text-color)
         height: 0;
     }
     .containers{
-        width: 90%;
+        width: 100%;
         display: grid;
-        align-items: center;
         justify-content: center;
 
     }
@@ -158,6 +157,7 @@ color: var(--text-color)
     }
     .container2{
         height: fit-content;
+        width: 100px ;
         margin: 0;
         padding: 0;
     }
@@ -174,7 +174,7 @@ color: var(--text-color)
         width : 90%;
         outline: none;
         border: none;
-        border-bottom:  1px solid black;
+        border-bottom:   0px 18px rgb(14 52 54 / 20%);;
     }
 }
 
@@ -186,7 +186,7 @@ color: #212F3D;
 background-color: #d7dbdd52;
 font-family: 'Poppins', sans-serif;
 }
-.menu-main{
+.menu-main{x    
     max-width: 1300px;
     margin: 0 auto;
     padding: 1.5em;
