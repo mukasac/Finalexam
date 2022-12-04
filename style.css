@@ -15,29 +15,28 @@
     --second-box-shadow: 0px 0px 18px rgb(14 52 54 / 20%);
 }
 
-
+.innhold{
+    width: 1300px;
+    box-shadow: var(--second-box-shadow);
+}
 .containers{
-    width: 100%;
-  padding: 0rem 2rem;
+  width: 100%;
+      display: flex;
   align-items: center;
   text-align: center;
 }
 .container1{
     display: inline-block;
     background-color: var(--third-bg-color);
-    width: 40%;
+    width: 50%;
     height: 500px;
     vertical-align: middle;
-    
     text-align: center;
-
 }
 
 .container1 h1{
     font-size: 20px;
-     color: white;
-
-
+     color: var(--text-color);
 
 }
 .container1 h3{
@@ -54,28 +53,19 @@ color: var(--text-color)
     box-shadow:  0px 18px rgb(14 52 54 / 20%);
     
     background-color: white;
-    width: 40%;
+    width: 50%;
     height: 500px;
     vertical-align: middle;
-
-
-
-
-
 }
 
 
 .container2{
     display: inline-block;
-
     box-shadow:   0px 18px rgb(14 52 54 / 20%);
-
     background-color: white;
-
-    width: 80%;
+    width:100%;
     height: 550px;
     vertical-align: middle;
-    
 }
 .container2 div{
     display: flex;
@@ -133,27 +123,45 @@ color: var(--text-color)
   box-shadow:0px 2px rgb(14 52 54 / 20%);;
   color:#000;
 }
-
+@media (min-width : 1300px){
+    .innhold {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 var(--hover); }
 }
 
-@media screen and (max-width :995px) {
-    .imgg{
+@media  (max-width :990px) {
 
+    .innhold{
+        width: auto;
+    }
+
+
+
+    /* .innhold{
+        width: auto;
+    }
+    .container1{
+        width: auto;
+    }
+    .imgg{
         width: 0;
         height: 0;
+    }   
+    section{
+        max-width: auto;
     }
+    
     .containers{
-        width: 100%;
-        display: grid;
+        width: auto;
+        display: flex;
         justify-content: center;
 
     }
-    .containers div{
-        width: 300px;
-
-    }
+    
     .container2{
         height: fit-content;
         width: 100px ;
@@ -174,10 +182,42 @@ color: var(--text-color)
         outline: none;
         border: none;
         border-bottom:   0px 18px rgb(14 52 54 / 20%);;
-    }
+    } */
 }
+@media (max-width: 500px){
+    .innhold{
+        width: auto;
+    }
+    .imgg{
 
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .container1{
+       width: 100%;
+    }
+    .container2{
+        height: fit-content;
+        align-items: center;
+    }
+    .container2 div{
+        height: fit-content;
+        display: grid;
+        align-items: center;
+ }
+ .container2 button{
+     width: 200px;;
 
+ }
+ .container2 input , .container2 select{
+     width : 90%;
+     outline: none;
+     border: none;
+     border-bottom:   0px 18px rgb(14 52 54 / 20%);;
+ } 
+}
 
 /* this is the css for the menu */
 body{
