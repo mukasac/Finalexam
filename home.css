@@ -38,6 +38,72 @@
     --box-shadow : 2px 2px 18px rgb(14 52 54 / 20%); 
     --second-box-shadow: 0px 0px 18px rgb(14 52 54 / 20%);
 }
+
+
+/* --Header sction. -- */
+
+header {
+    background-color: var(--maim-color);
+    width: 100%;
+    height: 80px;
+}
+.header-nav {
+    max-width: 1340px;
+    top : 0;
+    left : 0;
+    background-color: var(--maim-color);
+    width: 100%;
+    color : var(--text-color);
+    padding: 0 20px
+}
+header .logo {
+    float : left;
+}
+header nav {
+    float : right;
+}
+header nav ul {
+    display : flex;
+}
+header nav ul  li {
+    list-style: none;
+}
+header .logo {
+    float: left;
+    line-height: 80px;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+header .logo i{
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1.3;
+}
+header nav ul li a {
+    color : var(--text-color);
+    padding : 0 16px;
+    height: 80px;
+    display: block;
+    line-height: 80px;
+}
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: var(--second-color);
+    background-color: var(--text-color);
+}
+.menu-toggle i{  
+    float:right;
+    font-size:24px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    color: var(--text-color);
+}
+
 /* -- Container section. --*/
 
 /*
@@ -88,7 +154,7 @@ Container consists of:
     margin-top: 10px;
 }
 .about-img {
-    background: url(image/house/house1.jpg);
+    background: url(image/house\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -151,7 +217,7 @@ Container consists of:
     align-items: center;
 }
 .activities-img-1 {
-    background: url(image/house/restaurant.jpg);
+    background: url(image/restaurant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,7 +226,7 @@ Container consists of:
     border-radius: 3rem 0 3rem 3rem;
 }
 .activities-img-2 {
-    background: url(image/house/pexels-cottonbro-studio-6803523.jpg);
+    background: url(image/pexels-cottonbro-studio-6803523.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -176,7 +242,7 @@ Container consists of:
 }
 .activities-img-3 {
     /* photo has been downloaded from https://www.pexels.com/photo/compound-lighted-with-string-lights-382297/*/
-    background: url(image/house/pexels-salah-alawadhi-382297.jpg);
+    background: url(image/pexels-salah-alawadhi-382297.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -185,7 +251,7 @@ Container consists of:
     border-radius: 3rem 0 3rem  3rem;
 }
 .activities-img-4 {
-    background: url(image/house/pexels-pixabay-356065.jpg);
+    background: url(image/pexels-pixabay-356065.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -277,10 +343,31 @@ Container consists of:
     width: 100%;
 }
 
-/* -- contain is done. --*/
+/* -- contain is doen. --*/
 
+
+
+
+/* 4 --Here are the style attributes for footer. --*/
+
+
+footer {
+    background-color:var(--maim-color);
+    width: 100%;
+}
+.footer-info{
+    max-width: 1300px;
+    background-color:var(--maim-color);
+    color :var(--text-color);
+    padding: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 .title-info {
-    font-weight: bold;
+    font-weight: blod;
     font-size: 1.5rem;
     border-bottom: 1.5px solid var(--text-color);
     padding-bottom: 5px;
@@ -337,10 +424,25 @@ Container consists of:
 /* -- @media more than 1300px. --*/
 
 @media  (min-width: 1300px) {
+    /* --@media 1300px header. --*/
+
+    .header-nav {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 
     /* --@media 1300px contain. --*/
 
     .contain {
+        margin-right : auto;
+        margin-left: auto
+    }
+
+
+    /* --@media 1300px footer. --*/
+
+    .footer-info{
         margin-right : auto;
         margin-left: auto
     }
@@ -350,6 +452,35 @@ Container consists of:
 /* -- @media lese than 900px. --*/
 
 @media(max-width: 900px){ 
+    /*-- @media header section. --*/   
+    header{
+        padding:0 20px;
+    }
+    .menu-toggle i {
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        background-color: #212F3D;
+        top: 80px;
+        left:-100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a{
+        border-bottom: 1px solid black;
+    }
+    /* -- @meadia Welcome section. --*/
+     
+
     /* -- @media aboutsection. -- */
     .about-img{
         height: 25rem;
@@ -371,6 +502,13 @@ Container consists of:
         grid-template-columns: repeat( auto-fit, minmax(250px, auto));
         gap: 1rem;
     }
+    /* Footer attributes for tablits size*/
+   .footer-info{
+    display: block;
+    }
+    .open-time, .contact-info, .location {
+    padding-bottom: 20px;
+    }
     /**/
     .activities{
         display: block;
@@ -388,6 +526,32 @@ Container consists of:
 /*-- @media less than 500px. --*/
 
 @media(max-width: 500px){
+    /* -- @media 500 header. --*/
+    header {
+        padding:0 20px;
+    }
+    .menu-toggle i{
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color:#212F3D;
+        top: 80px;
+        left:-100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a{
+        border-bottom: 1px solid black;
+    }
     /*-- @media 500 Welcome section. --*/
     .welcome{
         max-width:350px ;
@@ -411,6 +575,11 @@ Container consists of:
     }
     .activities-img-1, .activities-img-2, .activities-img-3, .activities-img-4, .activities-text-2, .activities-text-4 {
         max-width: auto;
+    }
+    /*-- @media 500 footer. */
+    .footer-info{
+        display:flex ;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 280px) {
