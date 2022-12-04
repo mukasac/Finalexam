@@ -154,7 +154,7 @@ Container consists of:
     margin-top: 10px;
 }
 .about-img {
-    background: url(/image/house/house1.jpg);
+    background: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
