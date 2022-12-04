@@ -280,7 +280,7 @@ Container consists of:
 /* -- contain is done. --*/
 
 .title-info {
-    font-weight: blod;
+    font-weight: bold;
     font-size: 1.5rem;
     border-bottom: 1.5px solid var(--text-color);
     padding-bottom: 5px;
