@@ -318,3 +318,10 @@ text-align: center;
     }
 
 }
+/* this was added specifically to work with the galaxy fold.*/
+@media(max-width: 280px){
+    .menu-item-heading{
+        font-size: 13px;
+    }
+    
+}
