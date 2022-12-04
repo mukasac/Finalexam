@@ -282,7 +282,7 @@ text-align: center;
     object-fit: cover;
     margin-right: 1.5em;
     border: 4px solid;
-    border-radius: 1.5em;
+    border-radius: 10%;
     border-color: #212F3D;
 }
 /* makes sure the text grows with the rest of the page https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
