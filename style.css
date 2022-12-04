@@ -237,7 +237,7 @@ margin-right: 0;
 
 /* this is the css for the menu */
 body{
-    background-color: bisque;
+color: #212F3D;
 }
 .menu-main{
     max-width: 1200px;
@@ -261,6 +261,7 @@ font-family: sans-serif;
     border-bottom: 2px solid #333;
 }
 
+/* makes menu into a grid with one column, small screen. wide screen two column is in media tag*/
 .menu-group{
     display: grid;
     grid-template-columns: 1fr;
@@ -279,9 +280,9 @@ font-family: sans-serif;
     flex-shrink: 0;
     object-fit: cover;
     margin-right: 1.5em;
-    border: 5px solid;
-    border-radius: 20%;
-    border-color: #333;
+    border: 4px solid;
+    border-radius: 1.5em;
+    border-color: #212F3D;
 }
 /* makes sure the text grows with the rest of the page https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
 .menu-item-text{
@@ -297,6 +298,11 @@ font-family: sans-serif;
 }
 .menu-item-description{
     line-height: 1.6;
+}
+
+.allergens{
+    font-style: italic;
+    opacity: 80%;
 }
 
 /* this is the widescreen details for menu*/
