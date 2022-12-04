@@ -151,7 +151,7 @@ Container consists of:
     align-items: center;
 }
 .activities-img-1 {
-    background: url(/image/house/restaurant.jpg);
+    background: url(image/house/restaurant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,7 +160,7 @@ Container consists of:
     border-radius: 3rem 0 3rem 3rem;
 }
 .activities-img-2 {
-    background: url(/image/house/pexels-cottonbro-studio-6803523.jpg);
+    background: url(image/house/pexels-cottonbro-studio-6803523.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -176,7 +176,7 @@ Container consists of:
 }
 .activities-img-3 {
     /* photo has been downloaded from https://www.pexels.com/photo/compound-lighted-with-string-lights-382297/*/
-    background: url(/image/house/pexels-salah-alawadhi-382297.jpg);
+    background: url(image/house/pexels-salah-alawadhi-382297.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -185,7 +185,7 @@ Container consists of:
     border-radius: 3rem 0 3rem  3rem;
 }
 .activities-img-4 {
-    background: url(/image/house/pexels-pixabay-356065.jpg);
+    background: url(image/house/pexels-pixabay-356065.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -220,16 +220,16 @@ Container consists of:
     border-radius: 2rem 0;
 }
 #Wedding{
-    background: url(/image/profile1.jpg)center / cover;
+    background: url(image/profile1.jpg)center / cover;
 }
 #Restaurant{
-    background: url(/image/profile2.jpg)center / cover;
+    background: url(image/profile2.jpg)center / cover;
 }
 #Party{
-    background: url(/image/profile1.jpg)center / cover;
+    background: url(image/profile1.jpg)center / cover;
 }
 #meeting{
-    background: url(/image/profile2.jpg)center / cover;
+    background: url(image/profile2.jpg)center / cover;
 }
 .overlay{
     position: absolute;
@@ -280,7 +280,7 @@ Container consists of:
 /* -- contain is done. --*/
 
 .title-info {
-    font-weight: blod;
+    font-weight: bold;
     font-size: 1.5rem;
     border-bottom: 1.5px solid var(--text-color);
     padding-bottom: 5px;
