@@ -128,7 +128,7 @@ color: var(--text-color)
 .container2 button:hover,
 .container2 button:focus {
   animation: pulse 1s;
-  box-shadow: 0px 2px rgb(14 52 54 / 20%); transparent;
+  box-shadow: 0px 2px rgb(14 52 54 / 20%) transparent;
   background:#fff;
   box-shadow:0px 2px rgb(14 52 54 / 20%);;
   color:#000;
