@@ -1,5 +1,6 @@
 
 /* this is the css for the booking page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Condensed:wght@300&display=swap%27');
 
 .containers{
     /* border: 1px solid black; */
@@ -238,6 +239,7 @@ margin-right: 0;
 /* this is the css for the menu */
 body{
 color: #212F3D;
+font-family: 'Poppins', sans-serif;
 }
 .menu-main{
     max-width: 1200px;
@@ -247,11 +249,9 @@ color: #212F3D;
 
 .menu-header{
 text-align: center;
-font-family: sans-serif;
 }
 
 .menu{
-    font-family: sans-serif;
     font-size: 14px;
 }
 
