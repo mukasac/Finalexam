@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style-header.css">
+    <script src="https://kit.fontawesome.com/5196aeeac3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Accessibility</title>
 </head>
 <body>
+    <header>
+        <section class="header-nav">
+            <a href="#" class="logo"><i class="fa-solid fa-house"></i>The Taste</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Topical.html">Topical</a></li>
+                    <li><a href="accessibility.html" class="active">Accessibility</a></li>
+                </ul>
+            </nav>
+           <div class="menu-toggle"><i class="fas fa-bars" aria-hidden="true"></i></div>
+        </section>
+    </header>
+
     <h1>
         Accessibility - what have we taken into consideration?
     </h1>
-    <p> Accessibility in design is a widespread issue on the internet - that being said, we have taken some steps in attempt to make this page as practical as possible for users. For example, while structuring our code we have tried to use as many semantic elements instead of seperate divs (ex. main and section in the menu) to make the content of the page more comprehensible for screen readers. For the overall design we have tried to keep a high contrast profile to make it easy on the eyes and accounting for people who might have issues with colour vision or other vision impairments. We have also ran the page through a WAVE test to get an automated check of our code and the site visually. (her setter vi inn bilder og forklarer hvordan vi har forandret på siden med WAVE feedback) </p>
+    <p> Accessibility in design is a widespread issue on the internet - that being said, we have taken some steps in attempt to make this page as practical as possible for users. For example, while structuring our code we have tried to use as many semantic elements instead of seperate divs (ex. main and section in the menu) to make the content of the page more comprehensible for screen readers. For the overall design we have tried to keep a high contrast profile to make it easy on the eyes and accounting for people who might have issues with colour vision or other vision impairments. We have also ran the page through a WAVE test to get an automated check of our code and the site visually. <img src="image/Screenshot 2022-12-04 184555.png"> Here is the intial check of our main page. Albeit it had some errors we found that most of them were non-problematic for the purpose of the page - the feedback was on empty links in the icons (which is fine for now, as we don't actually have social media for this event house) which we then linked an example page to avoid the error warning (note that it will consider them redundant). We also added alt text to the icons. WAVE test on the menu revealed nothing except the points we explained above, seen here: <img src="image/Screenshot 2022-12-04 192114.png"> </p>
 </body>
 </html>
