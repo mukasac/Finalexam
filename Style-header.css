@@ -28,7 +28,7 @@
 }
 
 
-/* --Header sction. -- */
+/*Header sction*/
 
 header {
     background-color: var(--maim-color);
@@ -92,7 +92,7 @@ header nav ul li a.active{
     color: var(--text-color);
 }
 
-/* 4 --Here are the style attributes for footer. --*/
+/* Here are the style attributes for footer*/
 
 
 footer {
